@@ -1,0 +1,114 @@
+.main {
+    width: 100%;
+    background-color: #612940;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.main ul li a {
+    color: #fdecef;
+}
+
+.nav-item{
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.container-default {
+    max-width: 1364px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 24px;
+    padding-left: 24px;
+    flex: 1;
+}
+.split-content {
+    flex: 1;
+}
+
+.container-default a:hover {
+    color: #0F110C;
+    transition: 0.4s ease;
+}
+.content {
+    color:  #fdecef;
+}
+
+.display-1 {
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+h1 {
+    margin-bottom: 24px;
+}
+.content p{
+    letter-spacing: 1.2px;
+}
+
+.image-wrapper {
+    z-index: -1;
+    display: block;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    overflow: hidden;
+}
+
+.section {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    padding-top: 55px;
+    padding-bottom: 160px;
+    -webkit-box-align: center;
+}
+.home-hero-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.inner-container-580px {
+    max-width: 580px;
+}
+.mt-64{
+    margin-top: 64px;
+}
+
+.button-primary.large {
+    padding: 38px 56px;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.button-primary {
+    background-color: #101010;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.get-in-touch a.w-button {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+a.w-button:hover {
+    color: #612940;
+}
