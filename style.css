@@ -3,7 +3,6 @@
     background-color: #612940;
     background-position: center;
     background-size: cover;
-    height: 100vh;
 }
 
 .main ul li a {
@@ -111,4 +110,62 @@ h1 {
 
 a.w-button:hover {
     color: #612940;
+}
+
+.rn-about-area .image-area .thumbnail img {
+    border-radius: 8px;
+    transition: var(--transition);
+    width: 100%;
+}
+
+.rn-about-area .image-area .thumbnail {
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.rn-about-area .image-area {
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;;
+    margin-right: 20px;
+}
+
+.rn-section-gap {
+    padding: 100px 0;
+}
+
+.rn-about-area .image-area .thumbnail img:hover {
+    transform: scale(1.08);
+}
+
+.bg {
+    background-color: #612940;
+}
+
+h2.title {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-lightn);
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.rn-about-area .content .discription:nth-child(2) {
+    margin-bottom: 20px;
+    margin-top: 23px;
+}
+
+.rn-about-area .content .discription {
+    font-size: 16px;
+    line-height: 28px;
+    color:  #fdecef;
+    margin-bottom: 30px;
+    padding-right: 10%;
+}
+
+.rn-about-area .content {
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
 }
