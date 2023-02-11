@@ -146,7 +146,7 @@ h2.title {
     font-size: 60px;
     font-weight: 700;
     line-height: 1.2;
-    color: var(--color-lightn);
+    font-family: 'Times New Roman';
     margin-top: 15px;
     margin-bottom: 0;
 }
@@ -168,4 +168,80 @@ h2.title {
     top: 50%;
     position: relative;
     transform: translateY(-50%);
+}
+
+.display-2 {
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    line-height: 66px;
+    font-weight: 100;
+    color:  #fdecef;
+}
+
+.inner-container-800px {
+    max-width: 800px;
+}
+
+.align-center {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.mg-top-40px {
+    margin-top: 40px;
+}
+
+.display3 {
+    display: block;
+} 
+
+.l-project {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color:  #fdecef;
+}
+
+.card1 {
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-title-color:  #fdecef;
+    --bs-card-subtitle-color:  #fdecef;
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    --bs-card-border-radius: var(--bs-border-radius);
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: var(--bs-body-bg);
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: var(--bs-card-border-radius);
+}
+
+.card-body a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.card-body a:hover{
+    outline: none;
+}
+.card-title:hover {
+    color:#0F110C;
+    transition: .4s ease;
 }
