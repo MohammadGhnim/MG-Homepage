@@ -197,7 +197,7 @@ h2.title {
 } 
 
 .l-project {
-    max-width: 50%;
+    max-width: 75%;
     margin-left: auto;
     margin-right: auto;
     color:  #fdecef;
@@ -241,15 +241,23 @@ h2.title {
 .card-body a:hover{
     outline: none;
 }
+
+.card-title {
+    font-family: 'Times New Roman';
+}
 .card-title:hover {
     color:#0F110C;
     transition: .4s ease;
 }
 
+.card-text{
+    font-family: 'Times New Roman';
+}
+
 .rn-portfolio .inner .thumbnail a img {
     width: 100%;
     transition: 0.4s;
-    height: 433px;
+    height: auto;
     object-fit: cover;
 }
 
@@ -268,12 +276,17 @@ h2.title {
     display: inline-block;
     text-decoration: none;
     outline: none;
+    font-family: 'Times New Roman';
 }
 
 .rn-portfolio .inner .portfolio-content .title{
     margin: 0;
 }
 
+.rn-portfolio .inner .portfolio-content p {
+    font-family: 'Times New Roman';
+
+}
 .portfolio-content {
     color: #fdecef;
     padding-top: 18px;
@@ -301,4 +314,255 @@ h2.title {
 }
 
 .portfolio-aria .rn-portfolio .thumbnail img:hover {
-    transform: scale(1.08);}
+    transform: scale(1.08);
+}
+
+.section-title h2.title {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+    color:  #fdecef;
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-family: 'Times New Roman';
+}
+
+.section-title span.subtitle {
+    color:  #fdecef;
+    letter-spacing: 1px;
+    display: block;
+    line-height: 14px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Times New Roman';
+    font-weight: 500;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.section-separator {
+    position: relative;
+}
+
+.mt-50 {
+    margin-top: 50px !important;
+}
+
+.contact-about-area {
+    padding: 30px;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.contact-about-area .thumbnail img {
+    width: 100%;
+    height: auto;
+    transition:  0.4s;
+}
+
+.contact-about-area .thumbnail {
+    margin-bottom: 28px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.contact-about-area .title-area {
+    margin-bottom: 15px;
+}
+
+.contact-about-area .title-area h4.title {
+    font-size: 29px;
+    line-height: 44px;
+    color:  #fdecef;
+    margin-bottom: 9px;
+    font-family: 'Times New Roman';
+}
+
+.contact-about-area .title-area span {
+    color:  #fdecef;
+    font-family: 'Times New Roman';
+}
+
+.contact-about-area .description p {
+    font-size: 18px;
+    font-weight: 400;
+    color:  #fdecef;
+    font-family: 'Times New Roman';
+    line-height: 30px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.contact-about-area .description span a {
+    transition:  0.4s;
+    position: relative;
+    color: #CECCCC;
+    font-weight: 400;
+    text-decoration: none;
+    outline: none;
+}
+
+.contact-about-area .description span a:hover {
+    color: #0F110C;
+}
+.contact-about-area .description span {
+    display: block;
+    color:  #fdecef;
+}
+
+.contact-about-area .description {
+    margin-bottom: 39px;
+}
+
+.contact-about-area .social-area .name {
+    font-size: 14px;
+    font-family: 'Times New Roman';
+    font-weight: 500;
+    color:  #fdecef;
+    margin-bottom: 8px;
+}
+
+.contact-about-area .social-area .social-icone {
+    margin-top: 24px;
+}
+
+a ion-icon {
+    color:#CECCCC;
+    font-size: 33px;
+}
+
+.contact-about-area .social-area .social-icone a {
+    width: 61px;
+    height: 61px;
+    line-height: 75px;
+    margin-right: 15px;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    border-radius: 6px;
+    transition:  0.4s;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+.contact-about-area .social-area .social-icone a:hover {
+    transform: translateY(-5px);
+}
+
+.contact-form{
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    padding: 30px;
+    border-radius: 10px;
+    margin-left: 20px;
+    height: 100%;
+}
+
+.contact-form .introduce {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form label {
+    font-size: 12px;
+    color:#CECCCC;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman';
+    margin-bottom: 14px;
+    text-align: left;
+    display: block;
+}
+
+.form-group label {
+    line-height: 22px;
+}
+.contact-form input {
+    background-color: transparent;
+    border-radius: 6px;
+    height: 55px;
+    transition: 0.4s;
+    border: 2px solid #0F110C;
+    padding: 0 15px;
+    font-size: 14px;
+    font-family: 'Times New Roman';
+    color: #CECCCC;
+    letter-spacing: 1px;
+}
+
+.contact-aria .contact-form .form-group .inp{
+    background: transparent;
+    border: 2px solid #191b1e;
+}
+
+.form-control{
+    display: block;
+}
+
+.form-control-lg {
+    min-height: calc(1.5em + (1rem + 2px));
+}
+
+.contact-form .introduce input {
+    width: 100%;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-control-sm {
+    min-height: calc(1.5em + (.5rem + 2px));
+}
+
+button.rn-btn {
+    border-radius: 6px;
+    background: #612940;
+    box-shadow:  10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;;
+    transition: 0.4s;
+    position: relative;
+    z-index: 2;
+    font-size: 14px;
+    font-weight: 500;
+    border: 0 none;
+}
+
+button.rn-btn {
+    display: inline-block;
+    padding: 15px 35px;
+    list-style: none;
+    text-decoration: none;
+    color:#CECCCC;
+}
+
+input, button, textarea {
+    width: 100%;
+    font-family: 'Times New Roman';
+    background: transparent;
+}
+textarea {
+    border: 2px solid #0F110C;
+}
+input, button, select, textarea {
+    background: transparent;
+}
+
+.rn-btn .arrow-outline {
+    vertical-align: middle;
+    margin: 0px;
+} 
+.contact-form textarea {
+    min-height: 235px;
+    background-color: transparent;
+    border-radius: 6px;
+    padding: 0;
+    transition:  0.4s;
+    padding: 10px 15px;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Times New Roman';
+    color: #CECCCC;
+    letter-spacing: 1px;
+    resize: none;
+    border: 2px solid #191b1e;
+}
