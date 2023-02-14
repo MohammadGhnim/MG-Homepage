@@ -46,6 +46,7 @@ h1 {
 }
 .content p{
     letter-spacing: 1.2px;
+    font-family: 'Times New Roman';
 }
 
 .image-wrapper {
@@ -94,11 +95,13 @@ h1 {
 
 .button-primary {
     background-color: #101010;
-    color: #fff;
+    color: #fdecef;
     font-weight: 600;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    transition: .4s ease;
+    font-family: 'Times New Roman';
 }
 
 .get-in-touch a.w-button {
@@ -109,7 +112,9 @@ h1 {
 }
 
 a.w-button:hover {
-    color: #612940;
+    color: #101010;
+    background-color: #fdecef;
+
 }
 
 .rn-about-area .image-area .thumbnail img {
@@ -364,6 +369,10 @@ h2.title {
     transition:  0.4s;
 }
 
+.contact-about-area .thumbnail img:hover{
+    transform: scale(1.08);
+}
+
 .contact-about-area .thumbnail {
     margin-bottom: 28px;
     overflow: hidden;
@@ -533,6 +542,9 @@ button.rn-btn {
     list-style: none;
     text-decoration: none;
     color:#CECCCC;
+}
+button.rn-btn:hover{
+    transform: translateY(-5px);
 }
 
 input, button, textarea {
