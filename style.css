@@ -8,7 +8,9 @@
 .main ul li a {
     color: #fdecef;
 }
-
+.main a img {
+    border-radius: 50%;
+}
 .nav-item{
     margin-right: 16px;
     margin-left: 16px;
@@ -577,4 +579,32 @@ input, button, select, textarea {
     letter-spacing: 1px;
     resize: none;
     border: 2px solid #191b1e;
+}
+.footer-area .logo a img {
+    max-height: 70px;
+    border-radius: 50%;
+}
+.logo a {
+    display: inline-block;
+}
+.text-center {
+    text-align: center !important;
+}
+.footer-area .description {
+    font-size: 17px;
+    color:  #fdecef;
+    font-family: 'Times New Roman';
+}
+.footer-area .description a {
+    color:  #fdecef;
+    transition: 0.4s;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Times New Roman';
+}
+.footer-area .description a:hover {
+    color:  #0F110C;
+}
+.mt-30 {
+    margin-top: 30px !important;
 }
